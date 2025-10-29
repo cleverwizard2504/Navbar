@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>اولین سایت من</title>
-        <style>
-        body {font-family: sans-serif;text-align: center;padding: 50px;}
-        h1 {color: #2c3e50;}
-        </style>
-    </head>
-    <body>
-        <h1>سلام! این اولین سایت منه</h1>
-        <p>ساخته شده با HTML و CSS</p>
-        <p>توسط خانم تواضعی</p>
-    </body>
-    </html>
+<head>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #2c3e50;
+            padding: 15px 30px;
+            color: white;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">لوگو من</div>
+        <div class="nav-links">
+            <a href="#">خانه</a>
+            <a href="#">خدمات</a>
+            <a href="#">نمونه کارها</a>
+            <a href="#">تماس با من</a>
+        </div>
+    </nav>
+</body>
+</html>
